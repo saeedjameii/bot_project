@@ -9,7 +9,7 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Load bot token securely from environment variables
-BOT_TOKEN = "7854548836:AAEQ_MoIITV5whtmYUCN9JX5sAA0dwljTIs"
+BOT_TOKEN = "TOKEN"
 if not BOT_TOKEN:
     raise ValueError(
         "Telegram Bot Token is not set. Please set TELEGRAM_BOT_TOKEN as an environment variable."
